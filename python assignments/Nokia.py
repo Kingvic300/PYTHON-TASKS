@@ -1,4 +1,4 @@
-def runMatch():
+def Nokia():
     menu_option = """
         1 -> PhoneBook
 	2 -> Messages
@@ -350,5 +350,6 @@ def runMatch():
             clock()
         case 12: print("Profiles")
         case 13: print("SIM Services")
+Nokia():
                     
 runMatch()
