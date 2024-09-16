@@ -5,13 +5,15 @@ PSEUDO CODE
 	add the amount depositd with the amount withdrawn 
 	and display the output
 """
-deposit = int(input("enter amount to deposit: "))
-while deposit>0:
-	deposit = int(input("enter amount to deposit:"))  
-	deposit+=deposit
-	print(deposit)
-withdraw = int(input("enter amount to withdraw:"))
-	if deposit>withdraw:
+def bank_account():
+	deposit = int(input("enter amount to deposit: "))
+	while deposit>0:
+		deposit = int(input("enter amount to deposit:"))  
+		deposit+=deposit
+		print(deposit)
+	withdraw = int(input("enter amount to withdraw:"))
+	if depositwithdraw:
 		print(withdraw)
 	else:
 		print("insuffient funds :")
+bank_account()

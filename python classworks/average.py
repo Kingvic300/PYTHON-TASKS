@@ -6,6 +6,6 @@
 number1 = int(input("enter first number: "))
 number2 = int(input("enter second number: "))
 number3 = int(input("enter third number: "))
-sum = number1+number2+number3
+sum = number1 + number2 + number3
 average = sum/3
 print(average)
