@@ -17,7 +17,5 @@ if number2>number3 and number3>number1:
 	print(number1,number3,number2)
 
 if number3>number2 and number2>number1:
-	print(number1,number2,number3 1k)
-
-number4 = sorted((number1, number2, number3))
-print(number4)
+	print(number1,number2,number3)
+		
