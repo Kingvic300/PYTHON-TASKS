@@ -6,7 +6,7 @@ print(number2)
 sum = number1 + number2
 number3 = input("Enter the sum of the numbers ")
 print(sum)
-if number3 == sum:
+if sum == number3:
 	print("True")
-else:
+if number3 != sum:
 	print("False")
