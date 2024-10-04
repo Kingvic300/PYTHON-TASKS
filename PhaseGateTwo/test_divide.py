@@ -9,5 +9,5 @@ class TestDivide(unittest.TestCase):
 		self.assertEqual(divide.square(23),4.6)
 	def test_for_negative_val(self):
 		self.assertRaises(ValueError,divide.square, -1)
-	#def test_for_string(self):
-	#	self.assertRaises(ValueError,divide.square,"error")
+	def test_for_string(self):
+		self.assertRaises(TypeError,divide.square,"error")
