@@ -2,7 +2,7 @@ import math
 def square(number):
 	if number < 0:
 		raise ValueError("invalid input")
-	if number =="":
+	if number == str:
 		raise TypeError("invalid input")
 	if number%5==0:
 		return math.sqrt(number)

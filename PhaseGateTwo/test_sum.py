@@ -8,3 +8,5 @@ class testSum(unittest.TestCase):
 		self.assertEqual(sum.sum('23','22'),'45')
 	def test_for_negative_values(self):
 		self.assertEqual(sum.sum('-23','-22'),'-45') 	
+	def test_for_strings(self):
+		self.assertRaises(TypeError,sum.sum,"error")
