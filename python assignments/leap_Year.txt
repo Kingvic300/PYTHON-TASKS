@@ -1,6 +1,0 @@
-year = int(input("Enter a year:"))
-years = year%2
-if years<=0:
-	print("it is a leap year:")
-else:
-	print("it is not a leap year:")
